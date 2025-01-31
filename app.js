@@ -8,7 +8,7 @@ const app = express();
 
 app.use(
     session({
-        secret:'P3-MARCH#BOTsito-sesionesPersistenetes',
+        secret:'P3-EMGM#BOTsito-sesionesPersistenetes',
         resave: false,
         saveUninitialized: true,
         cookie: { maxAge: 24 * 60 * 60 * 1000} // 1 día
